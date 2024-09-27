@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/* styles.css */
+
+body {
+    background-color: #f8f8f8; /* Background color for the entire page */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Font style for the text */
+}
+
+.book-library {
+    background-color: #ffffff; /* Background color for the library container */
+    display: flex; /* Flexbox layout for arranging books */
+    justify-content: center; /* Center the book blocks */
+    padding: 20px; /* Padding around the library */
+    gap: 20px; /* Space between book blocks */
+    flex-wrap: wrap; /* Allow books to wrap in smaller screens */
+}
+
+.book {
+    background-color: #f1f1f1; /* Background color for each book block */
+    border-radius: 5px; /* Rounded corners for book blocks */
+    padding: 10px; /* Padding inside the book block */
+    text-align: center; /* Center align text inside book block */
+    width: 150px; /* Fixed width for each book block */
+}
+
+.book img {
+    width: 100%; /* Image takes the full width of the book block */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+.price {
+    color: #2ecc71; /* Color for the price */
+    font-weight: bold; /* Bold font for the price */
+}
